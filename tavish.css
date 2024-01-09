@@ -59,6 +59,17 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+html::-webkit-scrollbar{
+  width: 1.4rem;
+}
+html::-webkit-scrollbar-track{
+  background-color: #fff7f7;
+}
+html::-webkit-scrollbar-thumb{
+  /* background: var(--colorr); */
+  background: linear-gradient(var(--purple),var(--blue));
+  border-radius: 70px;
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -1767,24 +1778,32 @@ pre code {
   justify-content: space-evenly;
   padding-top: 30px;
   align-items: center;
+  
+}
+.myimg1  img , .myimg2 img , .myimg3 img{
+  border-radius: 10px;
 }
 .myimg1 , .myimg2 , .myimg3{
   height: 30%;
   width: 30%;
   margin-bottom: 30% !important;
   filter: grayscale(10);
-  transition: all 2s;
+  transition: all 1s;
+  border-radius: 10%;
   /* margin-bottom: 10%; */
 }
 
 .myimg3:hover {
   filter: grayscale(0);
+  transform: rotate(1deg);
 }
 .myimg1:hover {
   filter: grayscale(0);
+  transform: rotate(1deg);
 }
 .myimg2:hover {
   filter: grayscale(0);
+  transform: rotate(1deg);
 }
 @media (max-width:600px) {
   .myimg{
@@ -12345,6 +12364,7 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
 
 
 
