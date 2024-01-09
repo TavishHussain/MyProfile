@@ -1,435 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Tavish Profile</title>
+    <!-- font icons -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/a9/04/84/a90484ab719d37f277fbc45867802908.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tavish.css">
 </head>
-<body>
-    <header>
-        <div class="user" >
-            <img src="ds (3).jpeg">
-            <h3 class="name" >Tavish Hussain</h3>
-            <p class="post">Student</p>
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">
-                  Home
-                  <!-- <i class="fa fa-home"> -->
-                  </i></a></li>
-                <li><a href="#about">
-                  About
-                  <!-- <i class="fa fa-user"> -->
-                  </i></a></li>
-                <li><a href="#education">
-                  <!-- <i class="fa fa-graduation-cap"> -->
-                    Education
-                  </i></a></li> 
-                  <li><a href="#images">
-                     Gallary
-                     <!-- <i class="fa fa-envelope"></i> -->
-                   </a></li>
-                <li><a href="#portfolio">
-                  <!-- <i class="fa fa-id-card"> -->
-                    portfolio
-                </i></a></li>
-                
-                <li><a href="#contact">
-                  Contact
-                  <!-- <i class="fa fa-envelope"></i> -->
-                </a></li>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Tavish</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Images</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
 
-
-  <button id="menu" class="fa fa-bars abc"></button>
-
-        <!-- Home Section -->
-
-        <section class="home" id="home" data-aos="flip-right">
-                
-            <h3 >Hi There !</h3>
-            <h1>I'm <span>Tavish Hussain</span></h1>
-            <p>Hello !! I am From Ajmer and i am a Student of <i><a href="https://www.starinfotechcollege.com/" target="_blank">Star Infotech college Ajmer </a></i> I am Studing BCA From Here . I want to become a full stack developer and I am Working on my Dreams to archive success. <b>Because Success Is Not a destination it's a journey.</b></p>
-            <a href="#about"><button class="btn " id="aboutt">About me <i class="fas fa-user"></i></button></a>
-        </section>
-
-        <!-- home section ends -->
-
-        <!-- About section stars -->
-        <section class="about" id="about"  data-aos="fade-right">
-            <h1 class="heading">
-                <span>About </span>me
+    <!-- page header -->
+    <header id="home" class="header" data-aos="fade-in">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Tavish </span>
             </h1>
+            <p class="header-subtitle">BCA Student... <i class="fa fa-heart"></i></p>
+
+            <button class="btn btn-primary"><a href="#portfolio" style="color:var(--coloe);">Visit My Works</a></button>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about" data-aos="fade-right">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="ds__1_-removebg-preview.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hello !! I Am From Ajmer And I Am A Student Of Star Infotech College Ajmer I Am Studing BCA From Here . 
+                        I Want To Become A Full Stack Developer And I Am Working On My Dreams To Archive Success. 
+                        Because <b> Success Is Not A Destination It's A Journey.</b>
+                        <br>
+                        <span><strong><h2 style="display: inline-block;color: rgb(118, 83, 232);">Name</h2></strong> <h3 style="display: inline-block;">: Tavish Hussain</h3></span>
+                        <br>
+                        <span><strong><h2 style="display: inline-block;color: rgb(118, 83, 232);">Age</h2></strong> <h3 style="display: inline-block;">: 19</h3></span>
+                        <br>
+                        <span><strong><h2 style="display: inline-block;color: rgb(118, 83, 232);">Graduating</h2></strong> <h3 style="display: inline-block;font-weight: 100;">: BCA</h3></span>
+                        <br>
+                        <span><strong><h2 style="display: inline-block;color: rgb(118, 83, 232);">College</h2></strong> <h3 style="display: inline-block;">: Star Infotech College Ajmer</h3></span>
+                        <br>
+                        <span><strong><h2 style="display: inline-block;color: rgb(118, 83, 232);">Language</h2></strong> <h3 style="display: inline-block;">: Hindi & English</h3></span>
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4"><a href="#contact" class="c">Contact Me..</a> <i class="fa fa-phone"></i></button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    <section class="container content-section text-center" data-aos="fade-right">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div id="skill-bar-wrapper">
+            <h1 class="_h1">Skills</h1>
+            <div class="text-left">
+
+              <!-- C++ -->
+              Html<span style="float:right;">85%</span>
+              <div class="skillbar-container clearfix" data-percent="85%" style="background: rgb(237, 221, 221);">
+                <div class="skills" style="background: #6f42c1;" data-aos="fade-right" ></div>
+              </div>
+
+              <!-- Fortran -->
+              Css<span style="float: right;">65%</span>
+              <div class="skillbar-container clearfix" data-percent="65%" style="background: rgb(237, 221, 221);">
+                <div class="skills" style="background: #6f42c1;"data-aos="fade-down-right"></div>
+              </div>
+
+             
+
+              <!-- Cmake -->
+              Bootstrap<span style="float:right;">75%</span>
+              <div class="skillbar-container clearfix" data-percent="75%" style="background: rgb(237, 221, 221);">
+                <div class="skills" style="background: #6f42c1;" data-aos="fade-down-right"></div>
+              </div>
+               <!-- Java -->
+               Javascript<span style="float:right;">35%</span>
+               <div class="skillbar-container clearfix" data-percent="35%" style="background: rgb(237, 221, 221);">
+                 <div class="skills" style="background: #6f42c1;" data-aos="fade-down-right"></div>
+               </div>
+              <!-- HTML -->
+              Linux (Shell)<span style="float:right;">85%</span>
+              <div class="skillbar-container clearfix" data-percent="85%" style="background: rgb(237, 221, 221);">
+                <div class="skills" style="background: #6f42c1;" data-aos="fade-down-right"></div>
+              </div>
+
+              <!-- JavaScript -->
+              Photoshop<span style="float:right;">45%</span>
+              <div class="skillbar-container clearfix" data-percent="45%" style="background: rgb(237, 221, 221);">
+                <div class="skills" style="background: #6f42c1;" data-aos="fade-down-right"></div>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service" data-aos="fade-left">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
             <div class="row">
-              <img src="ds__1_-removebg-preview.png" style="max-width: 100%;">
-                <div class="info">
-                  <!-- <div style="height: 200px;width: 200px;background: red;display: inline-block;"> -->
-                    
-                  
-                    <h3><span>Name : </span>Tavish Hussain</h3>
-                    <h3><span>age : </span>19</h3>
-                    <h3><span>graduating : </span>BCA</h3>
-                    <h3><span>Language : </span>Hindi & English</h3>
-                    <a href="#contact"><button class="btn">Contact me <i class="fas fa-phone"></i></button></a>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="pencil-case.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Web Designing</h6>
+                            <p class="subtitle">I Love Web Designing My Dream is to become a full Stactk Developer in my future.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="responsive.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Programming</h6>
+                            <p class="subtitle">Programming is very intersting By Programming We can learn Problem solving Skills</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="counter">
-                    <div class="box">
-                        <span>6+</span>
-                        <h3>months of experience </h3>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="toolbox.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Gaming</h6>
+                            <p class="subtitle">Gaming is very usefull for all . Because Gaming can refresh Our Mind And relax our body</p>
+                        </div>
                     </div>
-                    <div class="box">
-                        <span>20+</span>
-                        <h3>Project Completed </h3>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="analytics.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Demo</h6>
+                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
+                                molestias dolorem iste quod.</p>
+                        </div>
                     </div>
-                    <div class="box">
-                        <span>4+</span>
-                        <h3>Language known</h3>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio" data-aos="fade-right">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="folio-1.jpg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="folio-2.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <section class="section-sm bg-primary" data-aos="fade-left">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded"><a href="#contact">Hire Me</a></button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial" data-aos="fade-right">
+        <div class="container text-center">
+            <p class="section-subtitle">What Think Client About Me ?</p>
+            <h6 class="section-title mb-6">Testmonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="firozsir.png" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
+                                adipisci nihil.</p>
+                            <h6 class="testimonial-card-title">Mr Firoz </h6>
+                        </div>
                     </div>
-                    <div class="box">
-                        <span>12+</span>
-                        <h3>a ratings</h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="saritamam.png" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
+                                adipisci nihil.</p>
+                            <h6 class="testimonial-card-title">Miss Sarita</h6>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About section ends -->
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
 
-        <!-- Education Section Stars  -->
-        <section class="education" id="education" data-aos="fade-right">
-            <h1 class="heading">My <span>Education</span></h1>
-            <div class="box-container">
-                <!-- <div class="box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>Summary</span>
-                    <h3>Tavish Hussain</h3>
-                    <p>i Have Completed my secondary education from <a href="https://khwajamodel.school/"  style="font-style: italic;">khawaja model school Ajmer </a>, rajasthan 305001
-                    kMS is a one of the most popular school of ajmer .
-                    </p>
-                </div> -->
-                <div class="box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>2020</span>
-                    <h3>Class 10th From CBSE</h3>
-                    <p>i Have Completed my secondary education from <a href="https://khwajamodel.school/"  style="font-style: italic;">khawaja model school Ajmer </a>, rajasthan 305001
-                    kMS is a one of the most popular school of ajmer .
-                    </p>
-                </div>
-                <div class="box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>2023</span>
-                    <h3>Class 12th From CBSE</h3>
-                    <p>i Have Completed my senior secondary education from <a href="https://khwajamodel.school/" style="font-style: italic;">khawaja model school Ajmer </a>, rajasthan 305001
-                        kMS is a one of the most popular school of ajmer .
-                        </p>
-                </div>
-      
-                <div class="box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>2023-present</span>
-                    <h3> graduation (BCA)</h3>
-                    <p>i am completing my graduation From <a href="https://www.starinfotechcollege.com/" style="font-style: italic;">Star Infotech College ajmer </a>
-                        one of the best IT college in rajasthan .
-                    </p>
-                </div>
-                <h1 class="heading my">My <span>skills</span></h1>
-                <div class="skill-bars">
-
-                    <div class="bar">
-                      <div class="info">
-                        <span>HTML</span>
-                      </div>
-                      <div class="progress-line html">
-                        <span></span>
-                      </div>
-                    </div>
-                  
-                    <div class="bar">
-                      <div class="info">
-                        <span>Bootstrap</span>
-                      </div>
-                      <div class="progress-line css">
-                        <span></span>
-                      </div>
-                    </div>
-                  
-                    <div class="bar">
-                      <div class="info">
-                        <span>CSS</span>
-                      </div>
-                      <div class="progress-line jquery">
-                        <span></span>
-                      </div>
-                    </div>
-                  
-                    <div class="bar">
-                      <div class="info">
-                        <span>operating system</span>
-                      </div>
-                      <div class="progress-line python">
-                        <span></span>
-                      </div>
-                    </div>
-                  
-                    <div class="bar">
-                      <div class="info">
-                        <span>c programming</span>
-                      </div>
-                      <div class="progress-line mysql">
-                        <span></span>
-                      </div>
-                    </div>
-                  
-                  </div>
-            </div>
-        </section>
-        <!-- <section></section> -->
-        <section  data-aos="fade-right">
-          <h1 class="heading" id="images">My <span>images</span></h1>
-          <div class="containere">
+    <!-- blog section -->
+   
+    <section class="section" id="blog" data-aos="fade-left">
+        <h1 style="text-align: center;">My Images</h1>
+        <!-- container -->
+        <div class="containere">
             <div class="carddd carddd-3"></div>        
             <div class="carddd carddd-4"></div>        
             <div class="carddd carddd-5"></div>        
         </div>
-        </section>
-        <section class="portfolio" id="portfolio" data-aos="fade-right">
-            <h1 class="heading">My <span>projects</span></h1>
-             
-              <div class="container">
-                <ul class="projectList">
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="https://html.design/demo/pullo/" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://media.istockphoto.com/id/609924218/photo/tying-sports-shoes.jpg?s=612x612&w=0&k=20&c=jDPQy90JEhy8FJYrW-2XHl1hC340wXha8RrQlZpfJaM=);"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Shoes Website</h5>
-                                <p class="label">My E-commerce Web Template</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <!-- </div> -->
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="https://hkbtk.csb.app/" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://images.kataeb.org/new-website/Technology/netflix-10.jpg)"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Netflix clone</h5>
-                                <p class="label">Netflic clone Website</p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="https://foxcoders.com/demo/mezban/?storefront=envato-elements" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://img.freepik.com/free-psd/restaurant-landing-page-template-design_23-2149609573.jpg);"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Food Website </h5>
-                                <p class="label">Food website clone </p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="https://demo.epic-webdesign.com/tf-pacifico/v4/" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://elements-cover-images-0.imgix.net/ebce8768-af78-4a7b-9e0f-aea94ad76786?auto=compress%2Cformat&w=433&fit=max&s=38914b870ed32821d2cd8439444fb4e2);"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Landing Page</h5>
-                                <p class="label">Design & development</p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="#" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://img.freepik.com/premium-photo/person-working-building-construction_23-2149184951.jpg?w=996);"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Demo Website</h5>
-                                <p class="label">My E-commerce Web Template</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="#" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://img.freepik.com/free-photo/full-shot-man-working-roof_23-2149343660.jpg?w=996&t=st=1704715789~exp=1704716389~hmac=d0adefb5ed577c154d1283939f064c1cc306bc775c3e7e159b48b58d7f4f39f5)"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Demo clone</h5>
-                                <p class="label">Netflic clone Website</p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="#" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://img.freepik.com/free-photo/worker-operating-industrial-machine-metal-workshop_342744-268.jpg?w=996&t=st=1704715823~exp=1704716423~hmac=0cc9c8d789ee26f3818af0a9f4c3af51c48fc6b30f58f42d485f123e1451ecf8);"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>demo Website </h5>
-                                <p class="label">Food website clone </p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <li>
-                    <div class="projectWrap">
-                      <div class="inner">
-                        <div class="project">
-                          <a href="https://demo.epic-webdesign.com/tf-pacifico/v4/" target="_blank">
-                          <div class="innerWrap">
-                            <div class="image" style="background-image:url(https://img.freepik.com/free-photo/high-angle-people-working-with-laptop_23-2149636255.jpg?w=996&t=st=1704715871~exp=1704716471~hmac=7b4ce7e9f75763b261aac613eb3234f778181e4258c6fb3b94bb09513339dd3f)"></div>
-                            <div class="metaWrap">
-                              <div class="meta">
-                                <h5>Landing Page</h5>
-                                <p class="label">Design & development</p>
-                              </div>
-                            </div>
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  
-                </ul>
-              </div>
-                    
-                  <!-- </div> -->
+       <!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
             
-        </section>
-        <!-- Portfolio Section Ends  -->
-        <!-- Contact Section Stars  -->
-        <section class="contact" id="contact" data-aos="fade-up-right">
-            <h1 class="heading"><span>Contact</span> Me</h1>
-            <div class="row">
-                <div class="content">
-                    <h3 class="title">Contact info</h3>
-                    <div class="infoo">
-                        <h3> <i class="fas fa-envelope"></i>tavishhussain911@gmail.com</h3>
-                        <h3><i class="fas fa-phone"></i>+91 9610655666</h3>
-                        <h3><i class="fas fa-map-marker-alt"></i>Ajmer , India - 305001</h3>
-                        <h3>
-                            <a href="https://www.instagram.com/mr_.jubish" target="_blank"><i class='bx bxl-instagram fs'></i></a>
-                            <a href="https://www.snapchat.com/add/jubishhussain"><i class='bx bxl-snapchat fs'></i></a>
-                            <a href="https://www.facebook.com/jubish.hussain.1/"><i class='bx bxl-facebook fs'></i></a>
-                            <a href="https://github.com/dashboard"><i class='bx bxl-github'></i></a></h3>
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact" data-aos="fade-up-right">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
                     </div>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Name" name="name" class="box">
-                    <input type="emialt" placeholder="email" name="email" class="box">
-                    <input type="text" placeholder="project" name="project" class="box">
-                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
-                    <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
-                </form>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                2024 &copy; <a
+                    href="">Tavish</a> Hussain <a
+                    href="">Ajmer</a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.facebook.com/jubish.hussain.1/" class="link"><i class="fa fa-facebook-f"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="fa fa-twitter"></i></a>
+                <a href="jhttps://www.snapchat.com/add/jubishhussain" class="link"><i class="fa fa-youtube"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="fa fa-pinterest"></i></a>
+                <a href="https://www.instagram.com/mr_.jubish" class="link"><i class="fa fa-instagram"></i></a>
             </div>
-        </section>
-        <!-- Contact Section Ends  -->
+        </footer>
+    </div> <!-- end of page footer -->
 
-        <!-- SCroll Top Button -->
-        <a href="#home" class="top">
-            <i class="fa-solid fa-arrow-up"></i>
-            <span></span>
-        </a>
+    <!-- core  -->
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.bundle.js"></script>
 
-
-
-    <!-- J query -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js" type="javascript"></script>
-       
-    <script>
-      $(document).ready(()=>{
-          $('.abc').click(function(){
-              $(this).toggleClass('fa-close');
-              $('header').toggleClass('toggle');
-      });
-      $('a').focus(()=>{
-              $('.abc').toggleClass('fa-close');
-              $('header').toggleClass('toggle'); // console.log(this,a.currentTarget.children[0].children[0].innerHTML="home");
-        })
-    });
-    </script>
+    <!-- bootstrap 3 affix -->
+    <script src="bootstrap.affix.js"></script>
+    
+    <script src="Tavish.js"></script>
+    <!-- <script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration:1000
+        duration:2300
       });
     </script>
+    </script>
 </body>
+
 </html>
