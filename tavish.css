@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/*!
-  Tavish Hussain
-*/
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
@@ -33,7 +30,8 @@
   --font-family-sans-serif: "Open Sans", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+* {cursor: url('https://live.staticflickr.com/65535/53457421324_029fbfb11c_o.png'),
+    pointer;}
 *,
 *::before,
 *::after {
@@ -41,6 +39,9 @@
   margin: 0;
   padding: 0;
 }
+
+
+
 
 html {
   overflow-x: hidden;
@@ -53,11 +54,12 @@ html::-webkit-scrollbar{
   width: 1.4rem;
 }
 html::-webkit-scrollbar-track{
-  background-color: #fff7f7;
+  background-color:transparent;
+  border-radius: 62px;
 }
 html::-webkit-scrollbar-thumb{
   /* background: var(--colorr); */
-  background: linear-gradient(var(--purple),var(--blue));
+  background: linear-gradient(var(--white),var(--purple));
   border-radius: 70px;
 }
 
@@ -85,6 +87,130 @@ hr {
   height: 0;
   overflow: visible;
 }
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  filter: grayscale(10);
+  transition: 0.3s;
+}
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  filter: grayscale(10);
+  transition: 0.3s;
+}
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  filter: grayscale(10);
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  transition: all .7s;
+  transform: rotate(1deg);
+  filter: grayscale(0);
+}
+#myImg2:hover {
+  transition: all .7s;
+  transform: rotate(1deg);
+  filter: grayscale(0);
+}
+#myImg3:hover {
+  transition: all .7s;
+  transform: rotate(1deg);
+  filter: grayscale(0);
+}
+
+@media (max-width:1200px)
+{
+  .Tavish img{
+      margin-top: 10px;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -550,12 +676,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    /* max-width: 540px; */
-  }
 }
 
 @media (min-width: 768px) {
@@ -12155,7 +12275,7 @@ pre .code {
 
 .header {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12169,10 +12289,11 @@ pre .code {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url('https://img.freepik.com/premium-vector/realistic-polygonal-background_23-2148902625.jpg?size=626&ext=jpg&ga=GA1.1.1272299880.1704715680&semt=ais');
+  /* background-image: url('https://img.freepik.com/premium-vector/realistic-polygonal-background_23-2148902625.jpg?size=626&ext=jpg&ga=GA1.1.1272299880.1704715680&semt=ais'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  
 }
 
 .header .overlay {
